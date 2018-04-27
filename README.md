@@ -1,12 +1,12 @@
 # Financial Risk Management using Machine Learning on z/OS
 
-This journey accesses a Financial Risk Management API published on IBM Bluemix with Machine Learning on z/OS running on the IBM Z Mainframe through a simulated retail bank system called MPLbank. 
+This journey accesses a Financial Risk Management API published on IBM Cloud with Machine Learning on z/OS running on the IBM Z Mainframe through a simulated retail bank system called MPLbank. 
 
 # MPLbank
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates a Financial Risk Management System based on [Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to their personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver a Financial Risk Management API, illustrating an online decision for loans approval.
+This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates a Financial Risk Management System based on [Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to their personal data. On top of these components, an API layer hosted in IBM Cloud has been set up to deliver a Financial Risk Management API, illustrating an online decision for loans approval.
 
 ![alt text](images/mlz_architecture_mplbank.png "Architecture")
 
@@ -16,11 +16,11 @@ Following the below schema, the predictive model was built from data using IBM M
 
 Once the model was approved, it was deployed to act as a scoring service. On top of this service, an API was created and published to an API developer Portal and is now callable through API. 
 
-The objectives of this journey are to discover, test and use this Financial Risk Management API using a sample financial application, then enhance it using IBM Bluemix.
+The objectives of this journey are to discover, test and use this Financial Risk Management API using a sample financial application, then enhance it using IBM Cloud.
 
 ## Included components
 
-The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture:
+The journey is accomplished by using a Hybrid [IBM Cloud] / [IBM Z Mainframe] architecture:
 
 * [Db2 for z/OS]
 * [Machine Learning for z/OS]
@@ -41,9 +41,9 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 1.	[Download and review the financial application code](#1-download-and-review-the-financial-application-code)
 2.	[Run the financial application](#2-run-the-financial-application)
 
-### Part C: Extend the Financial Risk Management application in Bluemix
+### Part C: Extend the Financial Risk Management application in Cloud
 
-1. 	[Start with Node.js on Bluemix](#1-start-with-nodejs-on-bluemix)
+1. 	[Start with Node.js on Cloud](#1-start-with-nodejs-on-Cloud)
 2.	[Make a cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ---
@@ -181,20 +181,20 @@ A quick financial application has been developed in order to help you to start c
 
 ---
 
-# Part C: Extend the Financial Risk Management application in Bluemix
+# Part C: Extend the Financial Risk Management application in Cloud
 
-## 1. Start with Node.js on Bluemix
+## 1. Start with Node.js on Cloud
 
-1.	[Sign up or log into IBM Bluemix]
+1.	[Sign up or log into IBM Cloud]
 	
-	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
+	> NOTE: Use IBM Cloud to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
 
 2.	Go to the catalog and select **SDK for Node.js**.
-	![alt text](images/nodejsbluemix.png "Node.js on Bluemix")
+	![alt text](images/nodejsCloud.png "Node.js on Cloud")
 
 3.	Configure your Node.js project for free (30 days).
-	![alt text](images/nodejsBluemixConfiguration.png "Node.js on Bluemix Documentation")
+	![alt text](images/nodejsCloudConfiguration.png "Node.js on Cloud Documentation")
 	* Provide an App name.
 	* Select a domain.
 	* Select a region to deploy the project.
@@ -207,8 +207,8 @@ A quick financial application has been developed in order to help you to start c
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Bluemix.
-	![alt text](images/gettingStartedBluemix.png "Node.js on Bluemix Documentation")
+6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Cloud.
+	![alt text](images/gettingStartedCloud.png "Node.js on Cloud Documentation")
 	* Read **Prerequisites**.
 	* Read **1. Clone the sample app**.
 	* Read **2. Run the app locally**.
@@ -222,16 +222,16 @@ A quick financial application has been developed in order to help you to start c
 	* Replace the *index.html* from the financial application to the *public* folder.
 	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
-8.	Re-Deploy the new code to the Node.js Runtime in Bluemix using the **cf push** command you learned in step 6.
+8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **cf push** command you learned in step 6.
 
-9.	Re-Click **Visit App URL** on Bluemix.
+9.	Re-Click **Visit App URL** on Cloud.
 	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
 
-The Financial Risk Management application is now hosted in Bluemix and use the Finance Risk Management API.
+The Financial Risk Management application is now hosted in Cloud and use the Finance Risk Management API.
 
 ## 2. Make a cognitive application using Watson Services
 
-1.	Integrate [IBM Watson Services] (APIs) from the Bluemix catalog. 
+1.	Integrate [IBM Watson Services] (APIs) from the Cloud catalog. 
 	![alt text](images/watsonServices.png "Watson services")
 	* Choose one of them.
 
@@ -251,11 +251,11 @@ The Financial Risk Management application is now hosted in Bluemix and use the F
 5. Develop the chosen Watson service in your Node.js Application using the documentation and credentials.
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first financial cognitive application in Bluemix.
+:thumbsup: Congratulations! You have successfully developed your first financial cognitive application in Cloud.
 
 ---
 
-[IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
+[IBM Cloud]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 [Machine Learning for z/OS]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/Machine-Learning-z-os.md
@@ -264,7 +264,7 @@ The Financial Risk Management application is now hosted in Bluemix and use the F
 
 [API Connect]: http://www-03.ibm.com/software/products/en/api-connect
 
-[Secure Gateway Service]: https://www.ibm.com/blogs/bluemix/2017/07/secure-faster-ever-secure-gateway-1-8-0/
+[Secure Gateway Service]: https://www.ibm.com/blogs/Cloud/2017/07/secure-faster-ever-secure-gateway-1-8-0/
 
 [DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
 
@@ -272,6 +272,6 @@ The Financial Risk Management application is now hosted in Bluemix and use the F
 
 [API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
 
-[Sign up or login to IBM Bluemix]: https://console.bluemix.net/registration/?
+[Sign up or login to IBM Cloud]: https://console.Cloud.net/registration/?
 
-[IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
+[IBM Watson Services]: https://www.ibm.com/cloud-computing/Cloud/watson
