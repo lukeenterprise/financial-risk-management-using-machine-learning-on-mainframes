@@ -185,7 +185,7 @@ A quick financial application has been developed in order to help you to start c
 
 ## 1. Start with Node.js on Cloud
 
-1.	[Sign up or log into IBM Cloud]
+1.	[Sign up or login to IBM Cloud]
 	
 	> NOTE: Use IBM Cloud to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
@@ -194,7 +194,7 @@ A quick financial application has been developed in order to help you to start c
 	![alt text](images/nodejsCloud.png "Node.js on Cloud")
 
 3.	Configure your Node.js project for free (30 days).
-	![alt text](images/nodejsCloudConfiguration.png "Node.js on Cloud Documentation")
+	![alt text](images/nodejsIBMCloudConfiguration.png "Node.js on Cloud Documentation")
 	* Provide an App name.
 	* Select a domain.
 	* Select a region to deploy the project.
@@ -208,7 +208,7 @@ A quick financial application has been developed in order to help you to start c
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
 6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Cloud.
-	![alt text](images/gettingStartedCloud.png "Node.js on Cloud Documentation")
+	![alt text](images/gettingStartedIBMCloud.png "Node.js on Cloud Documentation")
 	* Read **Prerequisites**.
 	* Read **1. Clone the sample app**.
 	* Read **2. Run the app locally**.
