@@ -207,12 +207,11 @@ A quick financial application has been developed in order to help you to start c
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
 6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Cloud.
-	![alt text](images/gettingStartedIBMCloud.png "Node.js on Cloud Documentation")
-	* Read **Prerequisites**.
-	* Read **1. Clone the sample app**.
-	* Read **2. Run the app locally**.
-	* Read **3. Prepare the app for deployment**.
-	* Read **4. Deploy the app**.
+	* Read **Before you begin**.
+	* Read **Step 1: Clone the sample app**.
+	* Read **Step 2: Run the app locally**.
+	* Read **Step 3: Prepare the app for deployment**.
+	* Read **Step 4: Deploy the app**.
 
 7.	Edit the cloned Hello World sample application on your laptop to integrate the Financial application files:
 	* Copy the *js* folder from the financial application into the *public* folder.
