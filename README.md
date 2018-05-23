@@ -225,7 +225,7 @@ A quick financial application has been developed in order to help you to start c
 8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **cf push** command you learned in step 6.
 
 9.	Re-Click **Visit App URL** on Cloud.
-	![alt text](images/nodejsAppRedeployCloud.png.png "Node.js Main Panel")
+	![alt text](images/nodejsAppRedeployCloud.png "Node.js Main Panel")
 
 The Financial Risk Management application is now hosted in Cloud and use the Finance Risk Management API.
 
