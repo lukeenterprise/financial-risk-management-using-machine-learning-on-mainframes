@@ -272,6 +272,6 @@ The Financial Risk Management application is now hosted in Cloud and use the Fin
 
 [API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
 
-[Sign up or login to IBM Cloud]: https://console.Cloud.net/registration/?
+[Sign up or login to IBM Cloud]: https://console.bluemix.net/
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/Cloud/watson
