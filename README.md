@@ -205,6 +205,7 @@ A quick financial application has been developed in order to help you to start c
 	![alt text](images/gettingStartedIBMCloud1.png "Node.js Main Panel")
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
+	* Read the **Getting Started**.
 
 6. Clone the project from Git https://github.com/IBM-Cloud/get-started-node.git
 
@@ -213,9 +214,10 @@ A quick financial application has been developed in order to help you to start c
 	* Remove the *views/stylesheets** folder to delete the default CSS style.
 	* Copy the *css* folder from the financial application into the *views* folder.
 	* Replace the *index.html* from the financial application to the *views* folder.
+	* Edit the *manifest.yml* to change the app name and delete the random route line.
 	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
-8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **bx app push** command you learned in step 6.
+8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **bx login** and **bx app push** command you read in step 5.
 
 9.	Re-Click **Visit App URL** on Cloud.
 	![alt text](images/nodejsAppRedeployCloud.png "Node.js Main Panel")
