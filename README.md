@@ -202,7 +202,7 @@ A quick financial application has been developed in order to help you to start c
 4. 	Wait for the Node.js Runtime creation.
 
 5. 	Once created, explore this panel to be familiar with it.
-	![alt text](images/nodejsAppReady.png "Node.js Main Panel")
+	![alt text](images/gettingStartedIBMCloud1.png "Node.js Main Panel")
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
