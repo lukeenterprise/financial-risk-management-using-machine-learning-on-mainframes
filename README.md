@@ -205,19 +205,14 @@ A quick financial application has been developed in order to help you to start c
 	![alt text](images/gettingStartedIBMCloud1.png "Node.js Main Panel")
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
- 
-6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Cloud.
-	* Read **Before you begin**.
-	* Read **Step 1: Clone the sample app**.
-	* Read **Step 2: Run the app locally**.
-	* Read **Step 3: Prepare the app for deployment**.
-	* Read **Step 4: Deploy the app**.
+
+6. Clone the project from Git [https://github.com/IBM-Cloud/get-started-node.git] (https://github.com/IBM-Cloud/get-started-node.git)
 
 7.	Edit the cloned Hello World sample application on your laptop to integrate the Financial application files:
-	* Copy the *js* folder from the financial application into the *public* folder.
-	* Remove the *public/stylesheets** folder to delete the default CSS style.
-	* Copy the *css* folder from the financial application into the *public* folder.
-	* Replace the *index.html* from the financial application to the *public* folder.
+	* Copy the *js* folder from the financial application into the *views* folder.
+	* Remove the *views/stylesheets** folder to delete the default CSS style.
+	* Copy the *css* folder from the financial application into the *views* folder.
+	* Replace the *index.html* from the financial application to the *views* folder.
 	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
 8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **bx app push** command you learned in step 6.
