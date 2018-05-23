@@ -206,7 +206,7 @@ A quick financial application has been developed in order to help you to start c
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
 
-6. Clone the project from Git [https://github.com/IBM-Cloud/get-started-node.git] (https://github.com/IBM-Cloud/get-started-node.git)
+6. Clone the project from Git https://github.com/IBM-Cloud/get-started-node.git
 
 7.	Edit the cloned Hello World sample application on your laptop to integrate the Financial application files:
 	* Copy the *js* folder from the financial application into the *views* folder.
