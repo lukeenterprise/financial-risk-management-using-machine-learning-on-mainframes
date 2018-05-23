@@ -44,7 +44,6 @@ The journey is accomplished by using a Hybrid [IBM Cloud] / [IBM Z Mainframe] ar
 ### Part C: Extend the Financial Risk Management application in Cloud
 
 1. 	[Start with Node.js on Cloud](#1-start-with-nodejs-on-Cloud)
-2.	[Make a cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ---
 
@@ -222,36 +221,16 @@ A quick financial application has been developed in order to help you to start c
 	* Replace the *index.html* from the financial application to the *public* folder.
 	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
-8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **cf push** command you learned in step 6.
+8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **bx app push** command you learned in step 6.
 
 9.	Re-Click **Visit App URL** on Cloud.
 	![alt text](images/nodejsAppRedeployCloud.png "Node.js Main Panel")
 
 The Financial Risk Management application is now hosted in Cloud and use the Finance Risk Management API.
 
-## 2. Make a cognitive application using Watson Services
-
-1.	Integrate [IBM Watson Services] (APIs) from the Cloud catalog. 
-	![alt text](images/watsonServices.png "Watson services")
-	* Choose one of them.
-
-2.	Create the service
-	![alt text](images/watsonServicesCreate.png "Watson services Creation")
-	* Connect to your existing Node.js Project.
-	* Click **Create**.
-	
-3. 	Wait for the chosen Watson Service creation. It will prompt for restaging your Node.js Application. Confirm.
-
-4.	Explore the chosen Watson service in your Node.js Application
-	![alt text](images/watsonServicesAppReady.png "Watson services")
-	* Click **Connections**.
-	* Click **Docs**. You will learn how to use this service through APIs.
-	* Click **View Credentials**. You will have your API Credentials.
-	
-5. Develop the chosen Watson service in your Node.js Application using the documentation and credentials.
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first financial cognitive application in Cloud.
+:thumbsup: Congratulations! You have successfully developed your first financial application in Cloud.
 
 ---
 
